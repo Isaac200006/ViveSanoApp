@@ -1,0 +1,42 @@
+body {
+    background-image: url(https://www.ecestaticos.com/image/clipping/ff7975cebe8cc8bd95d03aa76b91f8d2/ni-te-acerques-por-aqui-estas-son-las-50-peores-playas-de-espana-para-este-verano.jpg);
+    font-family: 'Oswald', sans-serif;
+}
+
+.div1 {
+    margin: auto;
+    width: 50%;
+    background-color: black;
+    color: white;
+    text-align: left;
+    margin-top: 40px;
+    padding: 30px;
+    height: 170px;
+}
+
+.div2 {
+    width: 50%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.text {
+    width: 50%;
+    background-color: white;
+    display: inline-block;
+    padding: 15px;
+}
+
+.botones {
+    display: inline-block;
+}
+
+.botones a {
+    color: white;
+    background: black;
+    border: none;
+    border-radius: 15px;
+    padding: 12px;
+    margin: 10px;
+    display: block;
+}

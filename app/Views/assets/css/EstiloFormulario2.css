@@ -1,0 +1,169 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://www.ecestaticos.com/image/clipping/ff7975cebe8cc8bd95d03aa76b91f8d2/ni-te-acerques-por-aqui-estas-son-las-50-peores-playas-de-espana-para-este-verano.jpg);
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+    height: 625px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+form {
+    background: white;
+    width: 50%;
+    padding: 10px 0;
+    border-radius: 15px;
+    margin: auto;
+}
+
+.grupo {
+    margin: 15px 45px;
+    position: relative;
+}
+
+select,
+input {
+    background: none;
+    padding: 8px;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #aaa;
+    transition: .3s ease all;
+    box-sizing: border-box;
+    padding-left: 40px;
+    outline: none;
+}
+
+select:focus,
+input:focus {
+    border: 1px solid #3C3B3F;
+}
+
+.grupo i {
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    padding: 8px 9px;
+    color: white;
+    background-color: #3C3B3F;
+    border-radius: 3.2px 0 0 3.2px;
+}
+
+.llegada {
+    display: block;
+    font-size: 15px;
+    width: 25%;
+    padding: 0;
+    margin: 0 0 0 50px;
+}
+
+.crear-usuario,
+.IniciarSesion {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.crear-usuario,
+.IniciarSesion a {
+    color: black;
+}
+
+.crear-usuario,
+.IniciarSesion a:hover {
+    text-decoration: underline;
+}
+
+.grupo .check {
+    width: 5%;
+}
+
+#logo1 {
+    padding: 10px 9px;
+}
+
+#logo2 {
+    padding: 9.2px 9px;
+}
+
+button {
+    width: 50%;
+    background: #3C3B3F;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #605C3C, #3C3B3F);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border: none;
+    border-radius: 15px;
+    display: block;
+    color: white;
+    font-size: 15px;
+    height: 40px;
+    margin: 10px auto;
+    transition: 1s ease all;
+}
+
+button:hover {
+    cursor: pointer;
+    background: #3C3B3F;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #605C3C, #3C3B3F);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #605C3C, #3C3B3F);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+a {
+    color: #b92b27;
+}
+
+a:visited {
+    color: #1565C0;
+}
+
+p {
+    text-align: center;
+    font-size: 9px;
+}
+
+@media screen and (max-width:1100px) {
+    form {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    form {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:450px) {
+    form {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:300px) {
+    form {
+        width: 90%;
+    }
+}
